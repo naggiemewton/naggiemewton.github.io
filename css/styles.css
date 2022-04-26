@@ -20,3 +20,15 @@ body{
     background-color: white !important;
     color: white !important;
 }
+
+.img-fluid{
+    height: 50vh;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+#about{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
