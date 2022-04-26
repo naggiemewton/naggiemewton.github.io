@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300;400&display=swap');
+
+
 html {
     box-sizing: border-box;
 }
@@ -5,4 +8,15 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+.navbar, navbar-light{
+    background-color: white !important;
+    color: white !important;
 }

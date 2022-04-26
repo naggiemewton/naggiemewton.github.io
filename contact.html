@@ -9,40 +9,45 @@
     <title>Contact - Koby Sedberry</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <li><a class="nav-link" href="">Home</a></li>
-            <li><a class="nav-link" href="">About</a></li>
-            <li><a class="nav-link" href="">Contact</a></li>
-        </nav>
-    </header>
 
-    <main>
-        <div class="form-div">
-            <form method="get" action="">
-
-                <div>
-                    <h3>If you are interested in my work, please contact me at koby@gmail.com. Or, fill out the form below</h3>
-                    <hr>
-                    <h3>Contact Me</h3>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-xl navbar-light" style="background-color: #e3f2fd;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Koby Sedberry</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLight" aria-controls="navbarLight" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse show" id="navbarLight">
+                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Collections</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                  </div>
                 </div>
+            </nav>
 
-                <div class="input-div">
-                    <label for="your-name" class="input-text">Your Name</label><br>
-                    <input type="text" required>
-                </div>
+            <form action="">
+                <label for="formControlInput" class="form-label">Name</label>
+                <input type="email" class="form-control" id="formControlInput" placeholder="Your name">
 
-                <div class="input-div">
-                    <label for="email" class="input-text">Email</label><br>
-                    <input type="email" name="email" required>
-                </div>
-
-                <div>
-                    <button type="text">Submit</button>
-                </div>
+                <label for="formControlInput" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="formControlInput" placeholder="name@example.com">
             </form>
+
         </div>
-    </main>
+    </div>
 
 </body>
 </html>
