@@ -16,8 +16,8 @@ body{
     font-family: 'Lexend Peta', sans-serif;
 }
 
-.navbar, navbar-light{
-    background-color: white !important;
+.navbar, .navbar-light{
+    background-color:black !important;
     color: white !important;
 }
 
@@ -28,7 +28,25 @@ body{
     object-fit: cover;
 }
 
-#about{
+#about-txt{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+#about-info{
+    margin-bottom: 40px;   
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0 !important;
+    padding-right: 0;
+    text-align: right;
+}
+
+/* footer{
+    display: flex;
+    align-items: center;
+    color: white;
+} */
