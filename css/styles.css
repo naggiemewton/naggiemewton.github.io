@@ -120,7 +120,7 @@ a {
 }
 a:hover {
     color:#f83812;
-    border-bottom: #f83812;
+    border-bottom: 2px #f83812 solid;
 }
 a:focus {
     color:#f83812;
@@ -206,6 +206,16 @@ footer{
 }
 .collec-link {
     margin-bottom:20px;
+    padding:10px;
+    border: 2px #f0f0f0 solid;
+    font-size: 1.1em;
+    text-align:center;
+}
+.collec-link:hover {
+    border: 2px #f83812 solid;
+}
+.collec-link:focus {
+    border:2px #f83812 solid;
 }
 .img-fluid {
     margin-bottom:15px;
