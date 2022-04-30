@@ -14,7 +14,6 @@ body{
     background-color: #070707;
     color: #f0f0f0;
     font-family: 'Lexend Peta', sans-serif;
-    /* background-image: linear-gradient(rgba(0,0,0,0.5)); */
 }
 
 .navbar, .navbar-light{
@@ -109,7 +108,15 @@ textarea{
     color:#f83812;
     border: 2px #f83812 solid;
 }
-.nav-link:hover:focus {
+a {
+    text-decoration: none;
+    color:#f0f0f0;
+}
+a:hover {
+    color:#f83812;
+    border-bottom: #f83812;
+}
+a:focus {
     color:#f83812;
     border-bottom: 2px #f83812 solid;
 }
@@ -176,4 +183,10 @@ footer{
 
 .collec1, .collec2, .collec3 {
     height: 30%;
+}
+.img-collec {
+    flex-basis:auto;
+}
+.nb-img {
+    flex-basis:100%;
 }
