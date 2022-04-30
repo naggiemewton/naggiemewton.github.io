@@ -148,6 +148,20 @@ footer{
 .img-collec {
     flex-basis:auto;
 }
-.nb-img {
-    flex-basis:100%;
+.home-header {
+    background-image: url(/img/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50vh;
+    margin-bottom:15px;
+}
+#home-title {
+    margin-top:270px;
+}
+.collec-link {
+    margin-bottom:20px;
+}
+.img-fluid {
+    margin-bottom:15px;
 }
