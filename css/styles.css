@@ -110,4 +110,9 @@ footer{
     height: 50px;
     margin-bottom:0;
 }
+.img-collec {
 
+}
+.collec1, .collec2, .collec3 {
+    height: 30vh;
+}
