@@ -145,15 +145,9 @@ footer{
     background-repeat: no-repeat;
     object-fit: cover;
 }
-
 .img-collec {
-    flex-basis: 100%;
+    flex-basis:auto;
 }
-
-.img-container-collec {
-    width:100%;
-}
-
-.collec1, .collec2, .collec3 {
-    height: 30%;
+.nb-img {
+    flex-basis:100%;
 }
