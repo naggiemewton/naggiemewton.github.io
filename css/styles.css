@@ -90,7 +90,21 @@ textarea{
    text-transform: uppercase;
 }
 
-.submit-button:hover:focus{
+.seemore-button{
+    background-color:#070707;
+    color: #f0f0f0;
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    margin: 12px;
+    font-size: 1.3rem;
+    border: 2px #f0f0f0 solid;
+    text-transform: uppercase;
+    clear: both;
+    float: right;
+ }
+
+.submit-button:hover:focus, .seemore-button:hover:focus{
     color:#f83812;
     border: 2px #f83812 solid;
 }
@@ -104,7 +118,7 @@ a:hover {
 }
 a:focus {
     color:#f83812;
-    border-bottom: #f83812;
+    border-bottom: 2px #f83812 solid;
 }
 
 .content{
@@ -123,6 +137,16 @@ footer{
     margin-bottom:0;
 }
 
+.normal-footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    height: 80px;
+}
+
 #main-img{
     height: 400px !important;
     background-repeat: no-repeat;
@@ -137,13 +161,28 @@ footer{
 }
 
 .node-images{
-    margin-top: 250px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100px;
+    height: 30%;
     background-repeat: no-repeat;
     object-fit: cover;
+}
+
+.node-img{
+    border: 1px white solid;
+}
+
+#index-row1{
+    margin-bottom: 20px;
+}
+
+.img-container-collec {
+    width:100%;
+}
+
+.collec1, .collec2, .collec3 {
+    height: 30%;
 }
 .img-collec {
     flex-basis:auto;
