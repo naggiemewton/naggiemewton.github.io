@@ -11,14 +11,14 @@ html {
 }
 
 body{
-    background-color: black;
-    color: white;
+    background-color: #070707;
+    color: #f0f0f0;
     font-family: 'Lexend Peta', sans-serif;
 }
 
 .navbar, .navbar-light{
-    background-color:black !important;
-    color: white !important;
+    background-color:#070707 !important;
+    color:#f0f0f0 !important;
 }
 
 .profile-img, #main-img{
@@ -79,20 +79,24 @@ textarea{
 }
 
 .submit-button{
-   background-color: black;
-   color: white;
+   background-color:#070707;
+   color: #f0f0f0;
    width: 100%;
    height: 50px;
    padding: 10px;
    margin-top: 12px;
    font-size: 1.3rem;
-   border: 2px white solid;
+   border: 2px #f0f0f0 solid;
    text-transform: uppercase;
 }
 
-.submit-button:hover{
-    color:blue;
-    border: 2px blue solid;
+.submit-button:hover:focus{
+    color:#f83812;
+    border: 2px #f83812 solid;
+}
+a:hover:focus {
+    color:#f83812;
+    border-bottom: #f83812;
 }
 
 .content{
@@ -132,4 +136,16 @@ footer{
     height: 100px;
     background-repeat: no-repeat;
     object-fit: cover;
+}
+
+.img-collec {
+    flex-basis: 100%;
+}
+
+.img-container-collec {
+    width:100%;
+}
+
+.collec1, .collec2, .collec3 {
+    height: 30%;
 }
