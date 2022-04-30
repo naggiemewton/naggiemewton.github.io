@@ -21,7 +21,7 @@ body{
     color:#f0f0f0 !important;
 }
 
-.img-fluid{
+.profile-img, #main-img{
     height: 50vh;
     min-width: 100%;
     min-height: 100%;
@@ -122,12 +122,38 @@ footer{
     height: 50px;
     margin-bottom:0;
 }
+
+#main-img{
+    height: 400px !important;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.node-images{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
 .img-collec {
     flex-basis: 100%;
 }
+
 .img-container-collec {
     width:100%;
 }
-.collections-row{
-    
+
+.collec1, .collec2, .collec3 {
+    height: 30%;
 }
