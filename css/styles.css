@@ -94,7 +94,15 @@ textarea{
     color:#f83812;
     border: 2px #f83812 solid;
 }
-a:hover:focus {
+a {
+    text-decoration: none;
+    color:#f0f0f0;
+}
+a:hover {
+    color:#f83812;
+    border-bottom: #f83812;
+}
+a:focus {
     color:#f83812;
     border-bottom: #f83812;
 }
@@ -120,6 +128,6 @@ footer{
 .img-container-collec {
     width:100%;
 }
-.collec1, .collec2, .collec3 {
-    height: 30%;
+.collections-row{
+    
 }
