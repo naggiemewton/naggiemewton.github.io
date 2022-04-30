@@ -34,7 +34,8 @@ body{
 }
 
 #about-headline{
-    margin-bottom: 40px;   
+    margin-bottom: 40px; 
+    font-size: 1.5rem;  
 }
 
 .about-info{
@@ -104,10 +105,16 @@ textarea{
     float: right;
  }
 
-.submit-button:hover:focus, .seemore-button:hover:focus{
+ .submit-button:hover,.seemore-button:hover{
     color:#f83812;
     border: 2px #f83812 solid;
-}
+ } 
+
+ .submit-button:focus, .seemore-button:focus{
+    color:#f83812;
+    border: 2px #f83812 solid;
+ } 
+
 a {
     text-decoration: none;
     color:#f0f0f0;
